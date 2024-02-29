@@ -30,7 +30,7 @@ try:
     parser.add_argument('--n_layers', type=int, default=1)
     parser.add_argument('--epochs', type=int, default=10)
     parser.add_argument('--learning_rate', type=float, default=0.001)
-    parser.add_argument('--decay', type=float, default=0.0001)
+    parser.add_argument('--decay', type=float, default=0)
     parser.add_argument('--batch_size', type=int, default=1024)
     parser.add_argument('--eval_epoch', type=int, default=-1)
     parser.add_argument('--top_k', type=int, default=5)
