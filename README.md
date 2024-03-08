@@ -12,6 +12,7 @@ conda activate <environment_name>
 pip install recommenders
 
 # 3. (alter.) Install the package with GPU support
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
 pip install recommenders[gpu]
 ```
 
